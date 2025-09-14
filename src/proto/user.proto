@@ -23,10 +23,10 @@ message CreateUserRequest {
 
 message UpdateUserRequest {
   string id = 1;
-  string email = 2;
-  string name = 3;
-  string password = 4;
-  int32 YOB = 5;
+  optional string email = 2;
+  optional string name = 3;
+  optional string password = 4;
+  optional int32 YOB = 5;
 }
 
 message GetUserRequest {

@@ -12,8 +12,8 @@ import { AuthService } from './auth.service';
         transport: Transport.GRPC,
         options: {
           package: 'user',
-          protoPath: join(__dirname, '../proto/user.proto'),
-          url: '0.0.0.0:50051', // GRPC server UserService
+          protoPath: join(__dirname, '../../proto/user.proto'),
+          url: '0.0.0.0:50051',
         },
       },
     ]),
